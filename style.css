@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Gotham Rounded";
-  src: url("../font/GothamRoundedMedium_21022.ttf") format("truetype");
+  src: url("./font/GothamRoundedMedium_21022.ttf") format("truetype");
 }
 
 :root {
