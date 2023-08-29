@@ -1,3 +1,4 @@
+
 @font-face {
   font-family: "Gotham Rounded";
   src: url("./font/GothamRoundedMedium_21022.ttf") format("truetype");
@@ -22,8 +23,10 @@ body {
 .video-banner {
   width: 100%;
   height: auto;
+  object-fit: cover;
   max-height: 100vh; /* Ajusta según tus necesidades. Esta regla limita la altura máxima del video. */
 }
+
 
 section:not(#sectionPin) {
   min-height: 100vh;
@@ -105,6 +108,22 @@ p {
   line-height: 1.5;
 }
 
+.infobox-explorebtn.selected {
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  background-color: #032f35; /* O el color que prefieras */
+  color: #bcb8ad; /* Color de texto que prefieras */
+  text-align: center;
+  text-decoration: none; /* Para eliminar el subrayado del enlace */
+  cursor: pointer;
+  border-radius: 5px; /* Para darle esquinas redondeadas */
+  transition: background-color 0.3s ease;
+}
+
+.infobox-explorebtn.selected:hover {
+  background-color: #e3857a; /* Cambia al color que prefieras cuando pases el mouse por encima */
+}
 
 @media (max-width: 768px) {
 
